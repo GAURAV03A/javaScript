@@ -4,5 +4,5 @@ for ( var a=1; a<=10; a++)
     {
         break;
     }
-    console.log("a",a,"got the train");
+    console.log("a",a,"got the train")
 }
