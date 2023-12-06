@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>createElement</title>
+</head>
+<body>
+    <div id="x">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ipsum?</p>
+    </div>
+
+    
+</body>
+
+<script>
+    
+    var x=document.getElementById('x')
+    console.log(x)
+    var heading=document.createElement('h1')
+    console.log(heading)
+    heading=document.createTextNode('this is my heading')
+    x.appendChild(heading)
+
+    var brk =document.createElement('br')
+    x.appendChild(brk)
+    console.log(brk)
+
+    var underline=document.createElement('u')
+    x.appendChild(underline)
+    console.log(underline)
+
+    var line=document.createElement('hr')
+    x.appendChild(line)
+    console.log(line)
+
+    var head=document.createElement('title')
+    x.appendChild(head)
+    console.log(head)
+
+    
+
+
+
+
+    
+</script>
+
+</html>
