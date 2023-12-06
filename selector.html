@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector</title>
+</head>
+
+<body>
+
+    <h1 id="top">programming language</h1>
+
+    <ul>
+        <li class="x" >C</li>
+        <li class="x" >C++</li>
+        <li class="x" >PYTHON</li>
+        <li class="x" >PASCAL</li>
+        <li class="x" >JAVA</li>
+    </ul>
+
+</body>
+
+<script>
+    var head=document.querySelector('#top')
+    console.log(head)
+    head.style.backgroundColor='red'
+    
+
+    var char=document.querySelectorAll('.x')
+    console.log(char)
+    char[0].style.color='pink'
+    char[2].style.backgroundColor='yellow'
+    char[3].textContent=("REACT")
+
+</script>
+
+</html>
