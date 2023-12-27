@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+
+<body>
+    <h1 style="color: dodgerblue;"><center>Employee Records</h1>
+    <div class="container">
+        <div> 
+            <form>
+                <label>Employee Name</label><br>
+                <input type="text" id="x1" ><br>
+
+                <label>Employee Id</label><br>
+                <input type="number" id="x2"><br>
+
+                <label>Department</label><br>
+                <select id="Department">
+                    <option>Select Department</option>
+                    <option>Frontend</option>
+                    <option>Backend</option>
+                    <option>HR</option>
+                    <option>Manager</option>
+                </select><br>
+
+                <label>Experience</label><br>
+                <input type="number" id="x3"><br>
+
+                <label>Email Address</label><br>
+                <input type="email" placeholder="s@gmail.com" id="x4" ><br>
+
+                <label>Mobile Number</label> <br>
+                <input type="number" id="x5"><br>
+
+                <input type="Submit">
+
+            </form>  
+        </div>
+
+        <div class="detail">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Employee ID</th>
+                    <th>Department</th>
+                    <th>Experience in years</th>
+                    <th>Email address</th>
+                    <th>Mobile Number</th>
+                    <th>Role</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        </div>
+
+    </div>
+</body>
+<script src="task.js"></script>
+</html>
