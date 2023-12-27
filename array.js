@@ -14,3 +14,20 @@ for(i=0;i<fruits.length;i++)
 {
     console.log(fruits[i])
 }
+
+
+
+
+
+
+
+
+
+
+apply method
+bindmethod
+call method
+task css
+task html 
+task js
+this js
